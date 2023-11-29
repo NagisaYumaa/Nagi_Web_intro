@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-rZ5SLeR4Pztz3mJJxKu4twF0O/R7bDMBSeI5iZfXVEwKg5B43RXQO2c+b4IdvnkL" crossorigin="anonymous">
+    <title>Danh sach san pham</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/2.jpg" alt="Logo">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li><a href="#" class="active">Trang Chủ</a></li>
+                    <li><a href="#">Dự Án</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--header-->
+
+
+    <!-- slide show -->
+
+    <body id="slide-show">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/Screenshot 2023-11-28 145354.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/Screenshot 2023-11-28 145514.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/Screenshot 2023-11-28 145551.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </body>
+    <!-- slide show -->
+
+    <!-- product -->
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Đồng hành trở thành thành viên mới</h2>
+
+        <!-- product -->
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="./img/mau1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="./img/mau2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./img/mau3.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal
+                        height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Xem danh sách sản phẩm của chúng tôi</h2>
+        </div>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./img/Alpha Delta Pi.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <a href="" class="product-cat">Bags</a>
+                        <a href="" class="product-name">Kappa Delta Flashback Tote Bag</a>
+                        <div class="product-price">$21.95</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./img/Alpha Kappa Alpha.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <a href="" class="product-cat">Bags</a>
+                        <a href="" class="product-name">Phi Mu Gold Foil Tote Bag</a>
+                        <div class="product-price">$21.95</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./img/Alpha Phi Design.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <a href="" class="product-cat">Bags</a>
+                        <a href="" class="product-name">Alpha Delta Pi Script Tote Bag</a>
+                        <div class="product-price">$28.99</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./img/Alpha Phi Script.jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <a href="" class="product-cat">Bags</a>
+                        <a href="" class="product-name">Sigma Gamma Rho 22 1/2" Duffel Bag</a>
+                        <div class="product-price">$30.95</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Product 5 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./img/Delta Zeta Pink With Red Heart.jpg" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                        <a href="" class="product-cat">Bags</a>
+                        <a href="" class="product-name">Alpha Kappa Alpha Pocket Jute Shopping Bag</a>
+                        <div class="product-price">$19.95</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./img/kappadelta.jpg" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <a href="" class="product-cat">Bags</a>
+                        <a href="" class="product-name">Alpha Phi Design Your Own Tote Bag</a>
+                        <div class="product-price">$19.95</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./img/PhiMu.jpg" class="card-img-top" alt="Product 7">
+                    <div class="card-body">
+                        <a href="" class="product-cat">Bags</a>
+                        <a href="" class="product-name">Alpha Phi Script Cosmetic Bag</a>
+                        <div class="product-price">$12.95</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="./img/Sigma Gamma.jpg" class="card-img-top" alt="Product 8">
+                    <div class="card-body">
+                        <a href="" class="product-cat">Bags</a>
+                        <a href="" class="product-name">Delta Zeta Pink With Red Heart Makeup Bag</a>
+                        <div class="product-price">$19.99</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product -->
+    
+
+
+
+
+
+    <!-- product -->
+
+    <!-- footer -->
+    <footer id="footer-wrapper">
+        <div class="primary-footer">
+            <div class="container">
+                <div class="about-section">
+                    <a class="footer-logo" href="https://www.facebook.com/NagisaYumaa">
+                        <img alt="Coding Flicks | Coding Tutorials & Tips/Tricks" src="./img/2.jpg" />
+                    </a>
+                    <div class="footer-info">
+                        <h3 class="title">About Us</h3>
+                        <p class="excerpt">Coding Flicks provides free HTML, CSS, and Javascript tutorials along
+                            with practical examples. Improve your skills in HTML, CSS, Javascript, CSS
+                            Animations, etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerbar">
+            <div class="container">
+                <div class="footer-copyright">
+                    <p>&copy; 2023 <a href="https://www.examples.com/">NagisaYumaa</a> All Rights Reserved</p>
+                </div>
+                <div class="footer-menu">
+                    <ul class="link-list">
+                        <li><a href="https://www.examples.com/">Terms and Conditions</a></li>
+                        <li><a href="https://www.examples.com/">Privacy Policy</a></li>
+                        <li><a href="https://www.examples.com/">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>
